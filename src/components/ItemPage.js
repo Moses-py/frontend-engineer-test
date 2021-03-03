@@ -2,7 +2,6 @@ import React from 'react'
 import FavoriteBorderRoundedIcon from '@material-ui/icons/FavoriteBorderRounded';
 import styled from "styled-components"
 import templates from "../designTemplate/template"
-import { Image } from '@material-ui/icons';
 
 const ItemPageBlock = styled.div`
     background-color: #C3E5E4
