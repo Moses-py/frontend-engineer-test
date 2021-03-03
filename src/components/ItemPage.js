@@ -9,17 +9,17 @@ const ItemPageBlock = styled.div`
 const ItemImageBlock = styled.div`
     display: flex;
     justify-content: center;
-    padding: 2.5rem
+    padding: 1.8rem
 `
 const ItemDescriptionBlock = styled.div`
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 2.5rem 2rem 2.5rem;
+    padding: 0 2.5rem 1rem 2.5rem;
     h2 {
         font-family: 'Rubik', sans-serif;
         padding: .4rem;
-        font-size: 18px;
+        font-size: 20px;
         font-weight: semi-bold;
         line-spacing: 47
     };
@@ -27,12 +27,13 @@ const ItemDescriptionBlock = styled.div`
     div.bottom-description {
         display: flex;
         align-items: center;
+        margin-bottom: .8rem
     };
     h4 {
         padding: 0 .4rem;
         font-family: 'Rubik', sans-serif;
-        font-weight: lighter;
-        font-size: 14px;
+        font-weight: regular;
+        font-size: 16px;
     }
     h5 {
         padding-left: .4rem;
@@ -61,7 +62,7 @@ function ItemPage() {
                             </div>
                         </div>
                         <div className="heart-icon">
-                            <FavoriteBorderRoundedIcon />
+                            <FavoriteBorderRoundedIcon/>
                         </div>
                 </ItemDescriptionBlock>
             </ItemPageBlock>
