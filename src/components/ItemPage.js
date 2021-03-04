@@ -47,9 +47,9 @@ function ItemPage() {
 
     return (
         templates.map(template => {
-            const {count, image, price, color, itemName} = template
+            const {count, image, price, color, itemName, id} = template
             return (
-                <ItemPageBlock style={{backgroundColor: color}}>
+                <ItemPageBlock key={id} style={{backgroundColor: color}}>
                     <ItemImageBlock>
                         <img src={image} alt="hgvugk"/>
                     </ItemImageBlock>
